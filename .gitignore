@@ -6,7 +6,7 @@
 
 .bmad-core/
 .claude
-web-bundle
+web-bundles
 
 node_modules/
 package-lock.json  # ou yarn.lock si vous utilisez yarn (gardez un seul)
