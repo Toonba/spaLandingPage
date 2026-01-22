@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ========== ANIMALS (PUBLIC DATA) ==========
+    match /animals/{animalId} {
+      // Lecture publique (données non sensibles)
+      allow read: if true;
+
+      // Écriture admin uniquement
+      allow create: if request.auth != null
+        && isValidAnimal(request.resource.data);
+      allow update: if request.auth != null;
+      allow delete: if request.auth != null;
+
+      // ========== PRIVATE NOTES (ADMIN ONLY) ==========
+      match /private/{docId} {
+        allow read, write: if request.auth != null;
+      }
+    }
+
+    // ========== SPA INFO ==========
+    match /spaInfo/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null && docId == 'main';
+    }
+
+    // ========== VALIDATION ==========
+    function isValidAnimal(data) {
+      return data.name is string && data.name.size() > 0
+        && data.species in ['chien', 'chat', 'oiseau', 'autre']
+        && data.gender in ['male', 'female']
+        && data.status in ['available', 'adopted'];
+    }
+  }
+}

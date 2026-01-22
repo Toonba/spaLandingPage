@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "spa": "spa-pontarlier",
+    "default": "spa-pontarlier"
+  },
+  "targets": {},
+  "etags": {}
+}
