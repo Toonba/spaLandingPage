@@ -7,7 +7,8 @@
 | [Epic 1: Setup](./epic-1-setup.md) | 3 | Configuration projet |
 | [Epic 2: Site Public](./epic-2-site-public.md) | 6 | Pages visiteurs |
 | [Epic 3: Admin](./epic-3-admin.md) | 5 | Gestion contenu |
-| **Total** | **14** | **MVP complet** |
+| [Epic 4: Contenu Institutionnel](./epic-4-institutional-content.md) | 4 | Contenu SPA & Import données |
+| **Total** | **18** | **MVP complet + Contenu** |
 
 ---
 
@@ -32,6 +33,24 @@
 12. [Story 3.3: Upload Photos](./story-3.3-photo-upload.md)
 13. [Story 3.4: Gestion statut animal](./story-3.4-animal-status.md)
 14. [Story 3.5: Édition infos SPA](./story-3.5-edit-spa-info.md)
+
+### Phase 4 - Contenu Institutionnel & Import
+15. [Story 4.1: Page À propos](./story-4.1-about-page.md) ← Onglets Historique/Actions/Partenaires
+16. [Story 4.2: Enrichissement page Aider](./story-4.2-help-page-enrichment.md) ← Balades, Bénévolat, Aides
+17. [Story 4.3: Onglets page Animaux](./story-4.3-animals-tabs.md) ← Chiens/Chats/Autre (conditionnel)
+18. [Story 4.4: Script de scraping](./story-4.4-scraping-script.md) ← Extraction données site existant
+
+---
+
+## Modifications transverses (Epic 4)
+
+Ces modifications impactent plusieurs composants :
+
+| Modification | Composant | Description |
+|--------------|-----------|-------------|
+| Footer enrichi | `Footer.tsx` | Ajout contact & horaires (visible sur toutes les pages) |
+| Suppression espèce | `types/animal.ts` | Retirer "oiseau" du type `Species` |
+| Composant Tabs | `ui/Tabs.tsx` | Nouveau composant partagé (À propos + Animaux) |
 
 ---
 
