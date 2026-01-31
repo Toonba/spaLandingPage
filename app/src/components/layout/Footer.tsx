@@ -14,17 +14,29 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Contact</h3>
             <address className="text-gray-400 text-sm not-italic">
-              <p>123 Rue du Refuge</p>
+              <p>11 rue des tourbières</p>
+              <p>Rocade Georges Pompidou</p>
               <p>25300 Pontarlier</p>
-              <p className="mt-2">Tél: 03 81 XX XX XX</p>
+              <p className="mt-2">
+                <a href="tel:+33381464064" className="hover:text-white transition-colors">
+                  Tél: 03.81.46.40.64
+                </a>
+              </p>
+              <p>
+                <a href="mailto:contact@spa-pontarlier.com" className="hover:text-white transition-colors">
+                  contact@spa-pontarlier.com
+                </a>
+              </p>
             </address>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-3">Horaires</h3>
             <p className="text-gray-400 text-sm">
-              Lundi - Samedi: 14h - 18h
+              Lun, Mar, Mer, Ven, Sam: 14h - 17h
               <br />
-              Dimanche: Fermé
+              Jeudi et Dimanche: Fermé
+              <br />
+              <span className="text-gray-500">Fermé les jours fériés</span>
             </p>
           </div>
         </div>

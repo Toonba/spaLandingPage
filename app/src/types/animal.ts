@@ -1,6 +1,6 @@
-export type Species = 'chien' | 'chat' | 'oiseau' | 'autre'
+export type Species = 'chien' | 'chat' | 'autre'
 export type Gender = 'male' | 'female'
-export type AnimalStatus = 'available' | 'adopted'
+export type AnimalStatus = 'available' | 'adopted' | 'reserved' | 'sponsorship'
 
 export interface AnimalCompatibility {
   children: boolean
@@ -37,8 +37,7 @@ export interface AnimalPrivateNotes {
 export const SPECIES_LABELS: Record<Species, string> = {
   chien: 'Chiens',
   chat: 'Chats',
-  oiseau: 'Oiseaux',
   autre: 'Autres',
 }
 
-export const SPECIES_LIST: Species[] = ['chien', 'chat', 'oiseau', 'autre']
+export const SPECIES_LIST: Species[] = ['chien', 'chat', 'autre']

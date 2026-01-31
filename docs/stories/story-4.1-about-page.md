@@ -8,13 +8,13 @@ Afin de mieux connaître l'association et ses engagements.
 
 ## Critères d'acceptation
 
-- [ ] Page `/a-propos` accessible depuis la navigation
-- [ ] Navigation par onglets : Historique | Nos Actions | Partenaires
-- [ ] Onglet Historique affiche 7 paragraphes
-- [ ] Onglet Nos Actions affiche les actions menées par la SPA
-- [ ] Onglet Partenaires affiche le(s) partenaire(s) avec logo si disponible
-- [ ] Design responsive (onglets empilés ou dropdown sur mobile)
-- [ ] Contenu statique (pas d'édition admin)
+- [x] Page `/a-propos` accessible depuis la navigation
+- [x] Navigation par onglets : Historique | Nos Actions | Partenaires
+- [x] Onglet Historique affiche 7 paragraphes
+- [x] Onglet Nos Actions affiche les actions menées par la SPA
+- [x] Onglet Partenaires affiche le(s) partenaire(s) avec logo si disponible
+- [x] Design responsive (onglets empilés ou dropdown sur mobile)
+- [x] Contenu statique (pas d'édition admin)
 
 ## Tâches techniques
 
@@ -116,13 +116,13 @@ export function Tabs({ tabs, defaultTab }: TabsProps) {
 
 ## Definition of Done
 
-- [ ] Page accessible à `/a-propos`
-- [ ] Les 3 onglets fonctionnent correctement
-- [ ] Le contenu s'affiche pour chaque onglet
-- [ ] Navigation clavier accessible (arrows, tab, enter)
-- [ ] Responsive : onglets adaptés au mobile
-- [ ] Lien ajouté dans la navbar
-- [ ] Contenu placeholder en attendant le scraping
+- [x] Page accessible à `/a-propos`
+- [x] Les 3 onglets fonctionnent correctement
+- [x] Le contenu s'affiche pour chaque onglet
+- [x] Navigation clavier accessible (arrows, tab, enter)
+- [x] Responsive : onglets adaptés au mobile
+- [x] Lien ajouté dans la navbar
+- [x] Contenu placeholder en attendant le scraping
 
 ## Notes
 
@@ -135,3 +135,35 @@ export function Tabs({ tabs, defaultTab }: TabsProps) {
 
 - Aucune dépendance bloquante
 - Le composant Tabs sera réutilisé par story 4.3
+
+## Dev Agent Record
+
+### Status
+Ready for Review
+
+### Agent Model Used
+Claude Opus 4.5
+
+### File List
+- `src/pages/AboutPage.tsx` (created)
+- `src/components/ui/Tabs.tsx` (created)
+- `src/data/aboutContent.ts` (created)
+- `src/App.tsx` (modified - added route)
+- `src/components/layout/Navbar.tsx` (modified - added nav link)
+
+### Change Log
+- Implemented AboutPage with 3 tab sections (Historique, Nos Actions, Partenaires)
+- Created reusable Tabs component with keyboard navigation (ArrowLeft/Right)
+- Created static placeholder content in aboutContent.ts
+- Added `/a-propos` route in App.tsx
+- Added "À propos" link in Navbar
+
+### Debug Log References
+N/A
+
+### Completion Notes
+- All 5 technical tasks completed
+- TypeScript compilation passes with no errors
+- ESLint passes with no errors
+- No test framework configured in project; manual verification recommended
+- Content is placeholder; will be replaced after scraping (story 4.4)

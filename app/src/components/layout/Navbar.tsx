@@ -9,8 +9,10 @@ export function Navbar() {
 
   const navLinks = [
     { to: '/', label: 'Accueil' },
-    { to: '/animaux', label: 'Adopter' },
+    { to: '/animaux', label: 'Nos animaux' },
+    { to: '/adoption', label: 'Adopter' },
     { to: '/aider', label: 'Aider' },
+    { to: '/a-propos', label: 'À propos' },
   ]
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>

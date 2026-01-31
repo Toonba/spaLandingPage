@@ -131,7 +131,7 @@ export function AnimalDetailPage() {
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-sm text-gray-500">Âge</p>
-              <p className="font-semibold text-gray-800">{animal.age}</p>
+              <p className="font-semibold text-gray-800">{animal.age || 'Non renseigné'}</p>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-sm text-gray-500">Sexe</p>
@@ -139,30 +139,48 @@ export function AnimalDetailPage() {
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-sm text-gray-500">Statut</p>
-              <p className="font-semibold text-green-600">Disponible</p>
+              <p className={`font-semibold ${
+                animal.status === 'available' ? 'text-green-600' :
+                animal.status === 'reserved' ? 'text-amber-600' :
+                animal.status === 'sponsorship' ? 'text-purple-600' :
+                'text-gray-600'
+              }`}>
+                {animal.status === 'available' ? 'Disponible' :
+                 animal.status === 'reserved' ? 'Réservé' :
+                 animal.status === 'sponsorship' ? 'Parrainage uniquement' :
+                 'Adopté'}
+              </p>
             </div>
           </div>
 
-          <div>
-            <h2 className="text-lg font-semibold text-gray-800 mb-3">Compatibilités</h2>
-            <CompatibilityBadges compatibility={animal.compatibility} />
-          </div>
+          {animal.status !== 'sponsorship' && (
+            <div>
+              <h2 className="text-lg font-semibold text-gray-800 mb-3">Compatibilités</h2>
+              <CompatibilityBadges compatibility={animal.compatibility} />
+            </div>
+          )}
+
+          {animal.description && (
+            <div className="bg-orange-50 rounded-lg p-4">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">Son histoire</h2>
+              <p className="text-gray-600 whitespace-pre-line">{animal.description}</p>
+            </div>
+          )}
         </div>
       </div>
 
-      {animal.description && (
-        <div className="mt-8 bg-white rounded-xl shadow-md p-6">
-          <h2 className="text-xl font-semibold text-gray-800 mb-4">Son histoire</h2>
-          <p className="text-gray-600 whitespace-pre-line">{animal.description}</p>
-        </div>
-      )}
-
       <div className="mt-8 text-center">
         <Link
-          to="/adoption"
-          className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg"
+          to={animal.status === 'sponsorship' ? '/aider?tab=sponsorship' : '/adoption'}
+          className={`inline-flex items-center gap-2 ${
+            animal.status === 'sponsorship'
+              ? 'bg-purple-500 hover:bg-purple-600'
+              : 'bg-orange-500 hover:bg-orange-600'
+          } text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg`}
         >
-          Comment adopter {animal.name} ?
+          {animal.status === 'sponsorship'
+            ? `Comment parrainer ${animal.name} ?`
+            : `Comment adopter ${animal.name} ?`}
         </Link>
       </div>
 

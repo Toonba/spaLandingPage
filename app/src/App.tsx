@@ -9,6 +9,7 @@ import { AnimalDetailPage } from '@/pages/AnimalDetailPage'
 import { AdoptionPage } from '@/pages/AdoptionPage'
 import { HelpPage } from '@/pages/HelpPage'
 import { LoginPage } from '@/pages/LoginPage'
+import { AboutPage } from '@/pages/AboutPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/animaux/:id" element={<AnimalDetailPage />} />
                 <Route path="/adoption" element={<AdoptionPage />} />
                 <Route path="/aider" element={<HelpPage />} />
+                <Route path="/a-propos" element={<AboutPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>

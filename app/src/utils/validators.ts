@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 export const animalSchema = z.object({
   name: z.string().min(1, 'Le nom est requis'),
-  species: z.enum(['chien', 'chat', 'oiseau', 'autre']),
+  species: z.enum(['chien', 'chat', 'autre']),
   breed: z.string().min(1, 'La race est requise'),
   age: z.string().min(1, "L'âge est requis"),
   birthDate: z.string().nullable(),

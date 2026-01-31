@@ -45,25 +45,27 @@ export function AnimalFilters({ filters, onChange, resultCount, loading }: Anima
   return (
     <div className="bg-white rounded-xl shadow-md p-4 mb-6">
       <div className="flex flex-col md:flex-row md:items-center gap-4">
-        {/* Species filter */}
-        <div className="flex items-center gap-2">
-          <label htmlFor="species" className="text-sm font-medium text-gray-700">
-            Espèce:
-          </label>
-          <select
-            id="species"
-            value={filters.species || ''}
-            onChange={handleSpeciesChange}
-            className="rounded-lg border-gray-300 border px-3 py-2 text-sm focus:ring-orange-500 focus:border-orange-500"
-          >
-            <option value="">Tous</option>
-            {SPECIES_LIST.map((species) => (
-              <option key={species} value={species}>
-                {SPECIES_LABELS[species]}
-              </option>
-            ))}
-          </select>
-        </div>
+        {/* Species filter - hidden when species is managed externally (tabs) */}
+        {filters.species !== undefined && (
+          <div className="flex items-center gap-2">
+            <label htmlFor="species" className="text-sm font-medium text-gray-700">
+              Espèce:
+            </label>
+            <select
+              id="species"
+              value={filters.species || ''}
+              onChange={handleSpeciesChange}
+              className="rounded-lg border-gray-300 border px-3 py-2 text-sm focus:ring-orange-500 focus:border-orange-500"
+            >
+              <option value="">Tous</option>
+              {SPECIES_LIST.map((species) => (
+                <option key={species} value={species}>
+                  {SPECIES_LABELS[species]}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
 
         {/* Compatibility filters */}
         <div className="flex flex-wrap items-center gap-3">

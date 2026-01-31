@@ -1,0 +1,1182 @@
+[
+  {
+    "name": "Poussy",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 02/10/2019",
+    "gender": "female",
+    "description": "Poussy est une amour de chienne, qui adore doucement les balades, elle est craintive pour le moment tout l’effraye et son éducation est a faire, elle s’entend avec les autres chiens. Même si elle est timide il n’y a pas de soucis pour que sa future famille ait des enfants avec qui elle pourra vivre heureuse.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/poussy1-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/poussy2-523x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/poussy1-scaled.jpg",
+    "compatibility": {
+      "children": true,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Ines",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 25/10/2013",
+    "gender": "female",
+    "description": "Ines est une chienne adorable, qui adore les balades. Elle ne demande qu’a se retrouver dans une famille avec qui elle pourra vivre heureuse et sans autres animaux.\nElle bénéficie du contrat doyen",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/ines2.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/ines-692x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/ines2.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Pepin",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 02/10/19",
+    "gender": "male",
+    "description": "Pepin est un chien gentil, très gentil mais pour l’instant assez timide gentiment ,il aime la douceur, les câlins, les balades doucement, un rien l’effraie. Il n’a pas de base d’éducation, il y a tout a lui apprendre. Il y a aucuns soucis avec les autres chiens.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/pepin2-scaled-e1768167101984.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/pepin-473x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/pepin2-scaled-e1768167101984.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Antey",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 15/12/21",
+    "gender": "male",
+    "description": "Antey est un chien gentil, méfiant au départ ,il aime la douceur, les câlins, les balades. Il n’a pas de base d’éducation, il y a tout a lui apprendre. pour le moment il n’est pas très à l’aise avec les autres chiens. il serait préférable que sa future famille n’ai pas d’autres chiens et d’enfants en bas âge.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/antey-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/antey2-402x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/antey-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Mali",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 17/10/24",
+    "gender": "male",
+    "description": "Mali est un chien adorable, qui adore jouer, beaucoup jouer. Cependant il y a encore de l’éducation a faire et surtout bien le cadrer. C est un chien sociable et un peu brusque, il serait préférable d’éviter les enfants en bas âges.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/mali2-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/mali-568x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/mali2-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Noisette",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Noisette est une chienne adorable, qui adore les câlins. Cette chienne est un amour, elle ne demande qu’a se retrouver dans une famille avec qui elle pourra vivre heureuse.\nElle bénéficie du contrat doyen",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/noisette25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/noisette25-2-693x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/noisette25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Oslo",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 09/12/2023",
+    "gender": "male",
+    "description": "Oslo est un chien adorable, actif, joueur il aime les câlins et les balades. Oslo est magnifiquement parfait. Alors allez-vous craquer pour ses beaux yeux?",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/oslo25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/OSlo25-2-576x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/oslo25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Lara",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 01.01.2015",
+    "gender": "female",
+    "description": "Lara est une chienne gentille ,adorable et hyper câline. Elle ne demande qu’a être aimée un véritable amour vous attend",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/09/lara1-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/09/lara-862x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/09/lara1-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Sybella",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 01.01.2015",
+    "gender": "female",
+    "description": "Sybella est une chienne gentille ,adorable et hyper câline.Elle ne demande qu’a être aimée un véritable amour vous attend",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/09/sibella.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/09/sybella-660x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/09/sibella.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Patou",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Patou est un chien adorable il aime les câlins et se balader. Cependant Patou est uniquement en parrainage pour l’ instant, car comme tout gardien de troupeau il a de la peine a gérer ses émotions et nécessite donc une vie particulière.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/patou-news-3.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/patou-news-1-771x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/patou-news-3.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Riad",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Riad est un chien adorable il aime les câlins et se balader. Il aime les enfants. Il n’aime pas les mâles mais tombe sous le charme des femelles non dominantes. Il n’attend plus que vous.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/riad25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/Riad-771x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/riad25.jpg",
+    "compatibility": {
+      "children": true,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Kurd",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 25/08/2021",
+    "gender": "male",
+    "description": "Kurd est un chien très affectueux, une fois sa confiance donnée . Il est très joueur. Il n’aime pas les chats. Super chien en balade, il adore la longe et ce balader avec une copine, cependant il faut quelqu’un qui soit prêt à s’engager dans une éducation suivie car Kurd à beaucoup de pêne à gérer ses émotions.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/03/kurd25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/03/IMG_E8036-1-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/03/kurd25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": false,
+      "other_animals": false
+    },
+    "status": "reserved"
+  },
+  {
+    "name": "Vanille",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Vanille est très craintive et pour l’instant ses émotions ne lui permettent pas de s’apaiser. Elle aura besoin de beaucoup de temps pour faire confiance.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/vanille3.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/vanille2-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/vanille3.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "sponsorship"
+  },
+  {
+    "name": "Thao",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 20.11.2022",
+    "gender": "male",
+    "description": "Thao est attachant, un amour seulement il a besoin d’être encadré et constamment maintenu sur le droit chemin. Il faut absolument continuer à le travailler au niveau comportemental. Il lui faut une personne responsable qui saura affronter les épreuves avec lui et ne pas abandonner.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/thao-new.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/thao-new3-576x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/thao-new.jpg",
+    "compatibility": {
+      "children": true,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Lizlay",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 01.05.2023",
+    "gender": "female",
+    "description": "Femelle Américan staffordshire terrier\nLizlay est une chienne gentille ,adorable et hyper câline, joueuse Elle ne demande qu’a être aimée. Lili pour les intimes, devient ces derniers temps une petite tête de cochon. elle va avoir besoin d’une personne qui soit stricte, ferme et qui va devoir tenir une éducation continue et assidue.\nPour le moment il est préférable de la placer sans enfants et sans autres animaux. Les animaliers sont là pour discuter volontiers de Lili",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/06/lili25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/lili25-2-652x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/06/lili25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Packo",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 01.11.2018",
+    "gender": "male",
+    "description": "Packo est gentil mais son comportement ne permet que de le parrainer uniquement.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/06/IMG_2773.jpeg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2022/02/PACO-B.png"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/06/IMG_2773.jpeg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "sponsorship"
+  },
+  {
+    "name": "Sami",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 10.04.2021",
+    "gender": "male",
+    "description": "Sami est un amour, il est gentil et attachant, seulement il  n a pas un passé fort sympathique et de ce fait il lui faut une personne responsable et amoureuse de la race et surtout quelqu’un qui le tienne constamment sur le droit chemin. Il faut absolument continuer a travailler au niveau comportemental. Enfants et congénères sous réserve.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/05/samy-new.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/10/sami3-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/05/samy-new.jpg",
+    "compatibility": {
+      "children": true,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Boby",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 18.10.2020",
+    "gender": "male",
+    "description": "Boby est un amour, il est gentil et attachant, seulement il lui faut du temps pour prendre confiance en la personne. Il est impatient de rencontrer sa nouvelle famille.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/02/boby4.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/09/bobby-1024x576.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/02/boby4.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Kandi",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 11.05.2021",
+    "gender": "male",
+    "description": "Kandi est encore craintif mais il commence à accepter le contact humain. Il va avoir besoin de temps pour faire confiance à sa nouvelle famille. Il sera placé en terrain clos avec d’autres congénères.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/10/IMG-20240317-WA0055-1.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/IMG-20240317-WA0055-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/10/IMG-20240317-WA0055-1.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Blomma",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 03/01/2022",
+    "gender": "male",
+    "description": "Blomma est encore craintif mais il apprend petit à petit à  accepter le contact humain. Il a seulement besoin d’être aimé et mis en confiance. Il sera placé en terrain clos avec d’autres congénères.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/04/blomma24.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/04/blomma-24-3-1024x934.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/04/blomma24.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "available"
+  },
+  {
+    "name": "Mosco",
+    "species": "chien",
+    "breed": "",
+    "age": "Né(e) le 15/12/2021",
+    "gender": "male",
+    "description": "Mosco paraît imposant mais une fois qu’il ,a apprit à vous connaître, c’est un véritable amour qui ne demande qu’à être aimée. Il aime les longues promenades et les gros câlins. Il ne demande qu’à être aimée et trouver sa famille pour la vie.\nA placer sans chat, poule et rongeur",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/04/IMG-20240309-WA0047.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/09/mosco3-771x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2023/04/IMG-20240309-WA0047.jpg",
+    "compatibility": {
+      "children": true,
+      "dogs": true,
+      "cats": false,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Naïade",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Naïade est gentille mais son comportement ne permet que de la parrainer uniquement.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/naiade.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/naiade2.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/naiade.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": true
+    },
+    "status": "sponsorship"
+  },
+  {
+    "name": "Smoking",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Smoking a besoin de temps pour faire confiance mais une fois qu’il est à l’aise, c’est un vrai amour qui ne demande qu’à être aimée.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/05/smoknews.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/05/smoknew-771x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/05/smoknews.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Sky",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Sky est gentil mais très craintif. De ce fait il ne peut être que parrainé.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/04/sky25-2.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/sky25.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/04/sky25-2.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "sponsorship"
+  },
+  {
+    "name": "Alfredo",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Alfredo est gentil mais très craintif. De ce fait il ne peut être que parrainé.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/02/alfredo-2.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/alfred.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/02/alfred11.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/02/alfredo-2.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "sponsorship"
+  },
+  {
+    "name": "Gandalf",
+    "species": "chien",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Gandalf est gentil mais très craintif. De ce fait il ne peut être que parrainé.\nGandalf est parrainé par Léonie T",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/02/gandalf2.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/08/gandalf-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2021/02/gandalf2.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": true,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "sponsorship"
+  },
+  {
+    "name": "Astra",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Astra est gentille, adorable elle ne demande juste que de l’amour. Elle sera placée uniquement en appartement.\nelle séjourne à la maison des chats, n’hésitez pas a nous téléphoner pour prendre rendez-vous.\nElle bénéficie du contrat doyen.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/astra.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/astra-706x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/astra.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Amy",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Amy est gentille, adorable elle ne demande juste que de l’amour. Elle sera placée uniquement en appartement.\nelle séjourne à la maison des chats, n’hésitez pas a nous téléphoner pour prendre rendez-vous.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/amy-chat.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/amy-chat-1024x656.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/amy-chat.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "James bond",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "James Bond est très gentil, adorable, un amour de chat.\nIl pourra vivre uniquement en appartement. Et pas d’enfants en bas âges.\npour le rencontrer veuillez prendre rendez-vous avec le refuge.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/james-bond.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/james-bond-575x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/james-bond.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Simba",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Simba est très gentil, adorable, un amour.\npour le rencontrer à la maison des chats veuillez prendre rendez-vous auprès du refuge.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/simba-chat.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/simba-chat-949x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/simba-chat.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Chapeline",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Chapeline est gentille, adorable elle ne demande juste que de l’amour, cependant elle reste assez timide mais se laisse caresser. Elle sera placée uniquement en appartement.\npour la rencontrer à la maison des chats, veuillez prendre contact avec le refuge pour convenir d’un rendez-vous\nelle séjourne à la maison des chats, n’hésitez pas a nous téléphoner pour prendre rendez-vous.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/chapeline.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/chapeline-812x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/chapeline.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Dune",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Dune est gentille, câline et adorable elle ne demande juste que de l’amour. Cette choupinette a une calicivirus. Elle sera placée uniquement en appartement.\npour la rencontrer à la maison des chats, veuillez prendre contact avec le refuge pour convenir d’un rendez-vous\nelle séjourne à la maison des chats, n’hésitez pas a nous téléphoner pour prendre rendez-vous.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/dune.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/dune-911x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/dune.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Saumon",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Saumon est très gentil, adorable, un amour.\nSaumon a une insuffisance cardiaque\npour le rencontrer veuillez prendre rendez-vous avec le refuge.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/saumon.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/saumon-891x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/saumon.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Ratatouille",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Ratatouille est très gentil mais un peu timide.\npour le rencontrer à la maison des chats veuillez prendre rendez-vous auprès du refuge.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/ratatouille-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/ratatouille-1024x436.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/ratatouille-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Kawai",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Kawai est très gentil, un amour il adore les câlins bisous.  il est fiv.\nKawai habite à la maison des chats si vous souhaitez le rencontrer n’hésitez pas à prendre contact avec nous pour convenir d’un rendez-vous",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/kawai.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/kawai-905x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/kawai.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Rocky",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Rocky est très gentil mais un peu timide.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/rocky-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/rocky-736x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/rocky-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Vanille",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Vanille est très gentil mais un peu timide.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/vanille-chat-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/vanille-chat-518x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/vanille-chat-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Silver",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Silver est très gentil et tranquille.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/silver-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/silver-1024x670.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/silver-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Khal",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Khal est un chat adorable et tranquille.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/khal.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/khal-1024x758.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/khal.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Caramel",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/caramel.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/caramel.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Noe",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Noé est un chat calme qui adore les câlins, il est super adorable.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/noe-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/noe-634x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/noe-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Biguine",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Biguine est gentille ,elle aime les câlins.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/biguine1-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/biguine1-1024x727.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/biguine1-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Reglisse",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Réglisse est gentille, curieuse.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/reglisse-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/reglisse-1024x647.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/reglisse-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Pinceau",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Pinceau est gentille et câline, plutôt calme.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/pinceau-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/pinceau-1024x632.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/pinceau-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Bijou",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Bijou est gentille et toute tranquille.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/bijou-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/bijou-1024x703.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/bijou-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Coquillette",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Coquillette est gentille et calme.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/coquillette-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/coquillette-1024x473.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/coquillette-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Bagheera",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Bagheera est gentille, elle ne demande que de l’amour, de la douceur.\nelle bénéficie du contrat doyen.\nElle séjourne à la maison des chats pour la rencontrer prenez rendez-vous auprès du refuge.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/bagheera-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/bagheera-1024x639.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2026/01/bagheera-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Bella",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Bella est gentille, elle ne demande que de l’amour, elle a son petit caractère.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/bella25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/bella25-734x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/bella25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Bobby",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Bobby est gentil mai il reste timide pour le moment.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/bobby25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/bobby25-759x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/bobby25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Marcus",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Marcus est adorable un peu timide au début. ce petit chouchou a une insuffisance rénal. Il devra être placé uniquement en appartement.\nIl se trouve à la maison des chats n’hésitez pas a nous téléphoner pour fixer un rendez-vous.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/marcus.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/marcus-683x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/marcus.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Capucine",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Capucine est gentille, un peu timide elle ne demande juste que de l’amour. Cette choupinette a une insuffisance rénale. Elle sera placée uniquement en appartement.\nElle bénéficie du contrat doyen\nelle séjourne à la maison des chats, n’hésitez pas a nous téléphoner pour prendre rendez-vous.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/capucine25.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/capucine25-1024x640.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/12/capucine25.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Tysane",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/10/tysane-1-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/10/tysane-1-1024x706.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/10/tysane-1-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Leon",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Léon est très peureux et n’accepte pas encore les câlins.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/jsp.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/jsp-1024x473.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/jsp.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Mishka",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Mishka est gentil et adore les câlins. Il reste toutefois un peu peureux.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/mishka-gros-dehors.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/mishka-gros-dehors-1024x473.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/mishka-gros-dehors.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Louisa",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "Louisa est peureuse mais gentille..",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/louisa.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/louisa-1024x473.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/07/louisa.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Ruby",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Ruby est un chat très gentil et calme, mais un peu timide.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/06/IMG_0649-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/06/IMG_0649-1024x576.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2025/06/IMG_0649-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Ulissia",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "female",
+    "description": "elle est timide mais aime les câlins",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/12/ulissia-scaled.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/12/ulissia-1024x706.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/12/ulissia-scaled.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Bulgur",
+    "species": "chat",
+    "breed": "",
+    "age": "Né(e) le 10/03/24",
+    "gender": "male",
+    "description": "Bulgur est gentil mais encore craintif.",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/10/bulgur.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/10/bulgur-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/10/bulgur.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  },
+  {
+    "name": "Jocker",
+    "species": "chat",
+    "breed": "",
+    "age": "",
+    "gender": "male",
+    "description": "Jocker est adorable avec un soupçon de timidité",
+    "photos": [
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/09/jocker2.jpg",
+      "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/09/jocker2-768x1024.jpg"
+    ],
+    "mainPhoto": "https://animaux.spa-pontarlier.com/wp-content/uploads/2024/09/jocker2.jpg",
+    "compatibility": {
+      "children": false,
+      "dogs": false,
+      "cats": true,
+      "other_animals": false
+    },
+    "status": "available"
+  }
+]

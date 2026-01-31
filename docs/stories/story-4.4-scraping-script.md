@@ -8,12 +8,12 @@ Afin de pré-remplir la base de données et le contenu statique avant la livrais
 
 ## Critères d'acceptation
 
-- [ ] Script capable d'extraire les fiches animaux (nom, espèce, âge, description, photos)
-- [ ] Script capable d'extraire le contenu institutionnel (historique, bénévolat, etc.)
-- [ ] Données animaux exportées au format compatible Firestore
-- [ ] Contenu textuel exporté pour intégration dans les fichiers statiques
-- [ ] Script exécutable en une commande
-- [ ] Documentation d'utilisation
+- [x] Script capable d'extraire les fiches animaux (nom, espèce, âge, description, photos)
+- [x] Script capable d'extraire le contenu institutionnel (historique, bénévolat, etc.)
+- [x] Données animaux exportées au format compatible Firestore
+- [x] Contenu textuel exporté pour intégration dans les fichiers statiques
+- [x] Script exécutable en une commande
+- [x] Documentation d'utilisation
 
 ## Données à extraire
 
@@ -154,12 +154,12 @@ npm run scrape
 
 ## Definition of Done
 
-- [ ] Script exécutable sans erreur
-- [ ] Données animaux extraites et formatées en JSON
-- [ ] Contenu textuel extrait et formaté en TypeScript
-- [ ] Photos des animaux listées (URLs originales)
-- [ ] Documentation d'utilisation présente
-- [ ] Le script peut être réexécuté si besoin
+- [x] Script exécutable sans erreur
+- [x] Données animaux extraites et formatées en JSON
+- [x] Contenu textuel extrait et formaté en TypeScript
+- [x] Photos des animaux listées (URLs originales)
+- [x] Documentation d'utilisation présente
+- [x] Le script peut être réexécuté si besoin
 
 ## Notes
 
@@ -186,3 +186,43 @@ npm run scrape
 - Contenu potentiellement en dur dans le HTML (pas de JSON/API)
 - Qualité des photos variable
 - Certaines informations peuvent être manquantes
+
+## Dev Agent Record
+
+### Status
+Ready for Review
+
+### Agent Model Used
+Claude Opus 4.5
+
+### File List
+- `scripts/scrape-spa.ts` (created - main entry point)
+- `scripts/scrapers/animals.ts` (created - animal scraper with pagination)
+- `scripts/scrapers/content.ts` (created - institutional content extractor)
+- `scripts/output/animals.json` (generated - 59 animals)
+- `scripts/output/aboutContent.ts` (generated - history, actions, partners)
+- `scripts/output/helpContent.ts` (generated - walks, volunteer, financial, donations)
+- `scripts/output/spaInfo.json` (generated - address, phone, hours)
+- `app/src/data/aboutContent.ts` (updated with real scraped content)
+- `app/src/data/helpContent.ts` (updated with real scraped content)
+- `app/src/pages/AboutPage.tsx` (modified - added partner URL links)
+- `app/package.json` (modified - added cheerio dep + scrape script)
+
+### Change Log
+- Created scraping script using Cheerio for spa-pontarlier.com
+- Animals scraper: paginates through chiens/chats/NAC categories on animaux.spa-pontarlier.com (WordPress)
+- Content scraper: extracts history, volunteer, financial aid, partners, actions from main site
+- Scraped 26 dogs + 33 cats = 59 animals with photos, descriptions, compatibility info
+- Copied real content to src/data/ (aboutContent.ts, helpContent.ts)
+- Added partner website links to AboutPage
+- Script runnable via `npm run scrape`
+
+### Debug Log References
+N/A
+
+### Completion Notes
+- 59 animals extracted (26 chiens, 33 chats, 0 NAC)
+- All institutional content extracted from real site
+- Static content files updated with real data
+- animals.json ready for Firestore import
+- Script is idempotent and re-runnable

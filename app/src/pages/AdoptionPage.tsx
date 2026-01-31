@@ -7,6 +7,7 @@ import { useSpaInfo } from '@/hooks/useSpaInfo'
 import { useAuth } from '@/context/AuthContext'
 import { DAY_LABELS, DAYS_ORDER } from '@/types/spaInfo'
 import type { SpaHours } from '@/types/spaInfo'
+import { adoptionContent, adoptionAdvice } from '@/data/adoptionContent'
 
 const ADOPTION_STEPS = [
   {
@@ -84,18 +85,97 @@ export function AdoptionPage() {
       {/* Étapes d'adoption */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-gray-800 mb-6">Les étapes</h2>
-        <div className="space-y-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {ADOPTION_STEPS.map((step, index) => (
-            <div key={index} className="flex gap-4 items-start">
-              <div className="flex-shrink-0 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold">
+            <div key={index} className="text-center">
+              <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold mx-auto mb-2">
                 {index + 1}
               </div>
-              <div>
-                <h3 className="font-semibold text-gray-800">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
-              </div>
+              <h3 className="font-semibold text-gray-800 text-sm">{step.title}</h3>
+              <p className="text-gray-600 text-xs mt-1">{step.description}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Tarifs d'adoption */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6">Tarifs d'adoption</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {/* Chats */}
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
+              <span className="text-2xl">🐱</span> Chats
+            </h3>
+            <div className="space-y-3">
+              {adoptionContent.catFees.map((fee, index) => (
+                <div key={index} className="border-b border-gray-100 pb-2 last:border-0">
+                  <div className="flex justify-between items-start">
+                    <span className="text-gray-700">{fee.category}</span>
+                    <span className="font-semibold text-orange-600">{fee.price}</span>
+                  </div>
+                  {fee.details && (
+                    <p className="text-sm text-gray-500 mt-1">{fee.details}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Chiens */}
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
+              <span className="text-2xl">🐕</span> Chiens
+            </h3>
+            <div className="space-y-3">
+              {adoptionContent.dogFees.map((fee, index) => (
+                <div key={index} className="border-b border-gray-100 pb-2 last:border-0">
+                  <div className="flex justify-between items-start">
+                    <span className="text-gray-700">{fee.category}</span>
+                    <span className="font-semibold text-orange-600">{fee.price}</span>
+                  </div>
+                  {fee.details && (
+                    <p className="text-sm text-gray-500 mt-1">{fee.details}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <p className="mt-4 text-sm text-gray-600 bg-gray-50 rounded-lg p-4">
+          {adoptionContent.note}
+        </p>
+      </section>
+
+      {/* Conseils aux adoptants */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">{adoptionAdvice.title}</h2>
+        <p className="text-gray-600 mb-6 italic">{adoptionAdvice.intro}</p>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+            <h3 className="text-lg font-semibold text-amber-800 mb-4">{adoptionAdvice.beforeAdoption.title}</h3>
+            <ul className="space-y-2">
+              {adoptionAdvice.beforeAdoption.items.map((item, index) => (
+                <li key={index} className="text-gray-700 flex items-start gap-2">
+                  <span className="text-amber-600 mt-1">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <h3 className="text-lg font-semibold text-green-800 mb-4">{adoptionAdvice.afterAdoption.title}</h3>
+            <ul className="space-y-2">
+              {adoptionAdvice.afterAdoption.items.map((item, index) => (
+                <li key={index} className="text-gray-700 flex items-start gap-2">
+                  <span className="text-green-600 mt-1">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 

@@ -8,12 +8,12 @@ Afin de choisir comment contribuer selon mes possibilités.
 
 ## Critères d'acceptation
 
-- [ ] Section Balades mise en avant (en haut de page)
-- [ ] Section Bénévolat avec titre, sous-titre et 5 paragraphes
-- [ ] Section Aides financières détaillée
-- [ ] Section Dons (existante, à conserver)
-- [ ] Section Contact & Horaires (doublon du footer, pour le contexte)
-- [ ] Contenu statique (pas d'édition admin pour les nouvelles sections)
+- [x] Section Balades mise en avant (en haut de page)
+- [x] Section Bénévolat avec titre, sous-titre et 5 paragraphes
+- [x] Section Aides financières détaillée
+- [x] Section Dons (existante, à conserver)
+- [x] Section Contact & Horaires (doublon du footer, pour le contexte)
+- [x] Contenu statique (pas d'édition admin pour les nouvelles sections)
 
 ## Tâches techniques
 
@@ -136,13 +136,13 @@ export const donationsContent = {
 
 ## Definition of Done
 
-- [ ] Section Balades visible en haut de page, mise en avant visuellement
-- [ ] Section Bénévolat affiche titre, sous-titre et 5 paragraphes
-- [ ] Section Aides financières présente
-- [ ] Section Dons matériels conservée
-- [ ] Section Contact affiche les infos depuis Firestore
-- [ ] Responsive sur mobile
-- [ ] Contenu placeholder en attendant le scraping
+- [x] Section Balades visible en haut de page, mise en avant visuellement
+- [x] Section Bénévolat affiche titre, sous-titre et 5 paragraphes
+- [x] Section Aides financières présente
+- [x] Section Dons matériels conservée
+- [x] Section Contact affiche les infos depuis Firestore
+- [x] Responsive sur mobile
+- [x] Contenu placeholder en attendant le scraping
 
 ## Notes
 
@@ -155,6 +155,32 @@ export const donationsContent = {
 
 - Story 2.6 (Page Aider existante) doit exister
 - Story 4.4 (scraping) fournira le contenu définitif
+
+## Dev Agent Record
+
+### Status
+Ready for Review
+
+### Agent Model Used
+Claude Opus 4.5
+
+### File List
+- `src/data/helpContent.ts` (created)
+- `src/pages/HelpPage.tsx` (modified - reorganized with new sections)
+
+### Change Log
+- Created helpContent.ts with static content for Balades, Bénévolat, Aides financières, Dons
+- Refactored HelpPage.tsx: added 4 new sections, reordered (Balades first), kept Contact/Horaires from Firestore
+- Balades section visually differentiated with orange background/border
+
+### Debug Log References
+N/A
+
+### Completion Notes
+- All 4 technical tasks completed
+- TypeScript compilation passes
+- Existing spaInfo integration preserved (Contact, Horaires, helpInfo, edit modal)
+- Content is placeholder; will be replaced after scraping (story 4.4)
 
 ## Impact sur story 2.6
 

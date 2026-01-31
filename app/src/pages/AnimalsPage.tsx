@@ -5,7 +5,9 @@ import { AnimalGrid } from '@/components/animals/AnimalGrid'
 import { AnimalFilters, type AnimalFiltersState } from '@/components/animals/AnimalFilters'
 import { AnimalEditModal } from '@/components/animals/AnimalEditModal'
 import { Spinner } from '@/components/ui/Spinner'
+import { Tabs } from '@/components/ui/Tabs'
 import { useAnimals } from '@/hooks/useAnimals'
+import { useAnimalsCount } from '@/hooks/useAnimalsCount'
 import { useAuth } from '@/context/AuthContext'
 import type { Animal, Species } from '@/types/animal'
 
@@ -15,23 +17,32 @@ export function AnimalsPage() {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [editingAnimal, setEditingAnimal] = useState<Animal | null>(null)
 
+  const currentSpecies: Species = (searchParams.get('species') as Species) || 'chien'
+
   const filters: AnimalFiltersState = useMemo(() => ({
-    species: (searchParams.get('species') as Species) || undefined,
+    species: currentSpecies,
     children: searchParams.get('children') === 'true',
     dogs: searchParams.get('dogs') === 'true',
     cats: searchParams.get('cats') === 'true',
-  }), [searchParams])
+  }), [searchParams, currentSpecies])
 
   const { animals, loading, error, refetch } = useAnimals(filters)
+  const { counts } = useAnimalsCount()
+
+  const handleTabChange = useCallback((tabId: string) => {
+    const params = new URLSearchParams(searchParams)
+    params.set('species', tabId)
+    setSearchParams(params)
+  }, [searchParams, setSearchParams])
 
   const handleFiltersChange = useCallback((newFilters: AnimalFiltersState) => {
     const params = new URLSearchParams()
-    if (newFilters.species) params.set('species', newFilters.species)
+    params.set('species', currentSpecies)
     if (newFilters.children) params.set('children', 'true')
     if (newFilters.dogs) params.set('dogs', 'true')
     if (newFilters.cats) params.set('cats', 'true')
     setSearchParams(params)
-  }, [setSearchParams])
+  }, [setSearchParams, currentSpecies])
 
   const handleAddClick = () => {
     setEditingAnimal(null)
@@ -48,6 +59,27 @@ export function AnimalsPage() {
     setEditingAnimal(null)
   }
 
+  const tabs = useMemo(() => {
+    const base = [
+      { id: 'chien', label: `Chiens (${counts.chien})` },
+      { id: 'chat', label: `Chats (${counts.chat})` },
+    ]
+    if (counts.autre > 0) {
+      base.push({ id: 'autre', label: `Autres (${counts.autre})` })
+    }
+    return base.map((t) => ({
+      ...t,
+      content: null as React.ReactNode,
+    }))
+  }, [counts])
+
+  // Compatibility filters without species dropdown
+  const compatibilityFilters: AnimalFiltersState = {
+    children: filters.children,
+    dogs: filters.dogs,
+    cats: filters.cats,
+  }
+
   return (
     <Container className="py-8">
       <div className="flex items-center justify-between mb-6">
@@ -62,8 +94,14 @@ export function AnimalsPage() {
         )}
       </div>
 
+      <Tabs
+        tabs={tabs}
+        activeTab={currentSpecies}
+        onTabChange={handleTabChange}
+      />
+
       <AnimalFilters
-        filters={filters}
+        filters={compatibilityFilters}
         onChange={handleFiltersChange}
         resultCount={animals.length}
         loading={loading}

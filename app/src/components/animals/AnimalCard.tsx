@@ -15,6 +15,13 @@ const COMPATIBILITY_LABELS = {
   other_animals: { label: 'Autres', icon: '🐾' },
 }
 
+const STATUS_CONFIG = {
+  available: { label: 'Disponible', bgColor: 'bg-emerald-500', textColor: 'text-white' },
+  adopted: { label: 'Adopté', bgColor: 'bg-gray-500', textColor: 'text-white' },
+  reserved: { label: 'Réservé', bgColor: 'bg-amber-500', textColor: 'text-white' },
+  sponsorship: { label: 'Parrainage', bgColor: 'bg-purple-500', textColor: 'text-white' },
+}
+
 const COMPATIBILITY_ORDER: (keyof typeof COMPATIBILITY_LABELS)[] = [
   'children',
   'dogs',
@@ -44,7 +51,14 @@ export function AnimalCard({ animal, onEdit }: AnimalCardProps) {
           Modifier
         </button>
       )}
-      <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+      <div className="aspect-[4/3] overflow-hidden bg-gray-100 relative">
+        {animal.status !== 'available' && (
+          <span
+            className={`absolute top-2 left-2 z-10 px-2 py-1 rounded-lg text-xs font-semibold ${STATUS_CONFIG[animal.status].bgColor} ${STATUS_CONFIG[animal.status].textColor}`}
+          >
+            {STATUS_CONFIG[animal.status].label}
+          </span>
+        )}
         <img
           src={imageUrl}
           alt={animal.name}
@@ -60,30 +74,33 @@ export function AnimalCard({ animal, onEdit }: AnimalCardProps) {
           {animal.name}
         </h3>
         <p className="text-gray-600 text-sm">
-          {animal.breed} • {animal.age}
+          {[animal.breed, animal.age].filter(Boolean).join(' • ') || '\u00A0'}
         </p>
         <div className="mt-2 flex items-center justify-between text-xs">
-          <span className="inline-block px-2 py-0.5 bg-gray-100 text-gray-600 rounded-full">
-            {animal.gender === 'male' ? '♂ Mâle' : '♀ Femelle'}
+          <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-gray-100 text-gray-600 rounded-full">
+            <span className="leading-none">{animal.gender === 'male' ? '♂' : '♀'}</span>
+            <span>{animal.gender === 'male' ? 'Mâle' : 'Femelle'}</span>
           </span>
-          <div className="flex items-center gap-1">
-            {COMPATIBILITY_ORDER.map((key) => {
-              const isCompatible = animal.compatibility?.[key] ?? false
-              return (
-                <span
-                  key={key}
-                  className={`inline-block px-2 py-0.5 rounded-full ${
-                    isCompatible
-                      ? 'bg-emerald-500 text-white'
-                      : 'bg-red-500 text-white'
-                  }`}
-                  title={`${isCompatible ? 'OK' : 'Non'} avec ${COMPATIBILITY_LABELS[key].label.toLowerCase()}`}
-                >
-                  {COMPATIBILITY_LABELS[key].icon}
-                </span>
-              )
-            })}
-          </div>
+          {animal.status !== 'sponsorship' && (
+            <div className="flex items-center gap-1">
+              {COMPATIBILITY_ORDER.map((key) => {
+                const isCompatible = animal.compatibility?.[key] ?? false
+                return (
+                  <span
+                    key={key}
+                    className={`inline-block px-2 py-0.5 rounded-full ${
+                      isCompatible
+                        ? 'bg-emerald-500 text-white'
+                        : 'bg-red-500 text-white'
+                    }`}
+                    title={`${isCompatible ? 'OK' : 'Non'} avec ${COMPATIBILITY_LABELS[key].label.toLowerCase()}`}
+                  >
+                    {COMPATIBILITY_LABELS[key].icon}
+                  </span>
+                )
+              })}
+            </div>
+          )}
         </div>
       </div>
     </Link>

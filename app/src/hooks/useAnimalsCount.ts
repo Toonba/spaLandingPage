@@ -13,7 +13,6 @@ export function useAnimalsCount(): UseAnimalsCountReturn {
   const [counts, setCounts] = useState<Record<Species, number>>({
     chien: 0,
     chat: 0,
-    oiseau: 0,
     autre: 0,
   })
   const [loading, setLoading] = useState(true)
