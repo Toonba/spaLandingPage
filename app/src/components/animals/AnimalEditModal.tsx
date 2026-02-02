@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Modal } from '@/components/ui/Modal'
@@ -27,6 +27,36 @@ export function AnimalEditModal({ isOpen, onClose, animal, onSuccess }: AnimalEd
   const isEditing = !!animal
   const photoUploaderRef = useRef<PhotoUploaderRef>(null)
 
+  const getFormValues = (animal: Animal | null | undefined): AnimalFormData => {
+    if (animal) {
+      return {
+        name: animal.name,
+        species: animal.species,
+        breed: animal.breed,
+        age: animal.age,
+        birthDate: animal.birthDate?.toISOString().split('T')[0] || null,
+        gender: animal.gender,
+        description: animal.description,
+        compatibility: animal.compatibility,
+      }
+    }
+    return {
+      name: '',
+      species: 'chien',
+      breed: '',
+      age: '',
+      birthDate: null,
+      gender: 'male',
+      description: '',
+      compatibility: {
+        children: false,
+        dogs: false,
+        cats: false,
+        other_animals: false,
+      },
+    }
+  }
+
   const {
     register,
     handleSubmit,
@@ -34,33 +64,15 @@ export function AnimalEditModal({ isOpen, onClose, animal, onSuccess }: AnimalEd
     formState: { errors, isSubmitting },
   } = useForm<AnimalFormData>({
     resolver: zodResolver(animalSchema),
-    defaultValues: animal
-      ? {
-          name: animal.name,
-          species: animal.species,
-          breed: animal.breed,
-          age: animal.age,
-          birthDate: animal.birthDate?.toISOString().split('T')[0] || null,
-          gender: animal.gender,
-          description: animal.description,
-          compatibility: animal.compatibility,
-        }
-      : {
-          name: '',
-          species: 'chien',
-          breed: '',
-          age: '',
-          birthDate: null,
-          gender: 'male',
-          description: '',
-          compatibility: {
-            children: false,
-            dogs: false,
-            cats: false,
-            other_animals: false,
-          },
-        },
+    defaultValues: getFormValues(animal),
   })
+
+  // Reset form when modal opens or animal changes
+  useEffect(() => {
+    if (isOpen) {
+      reset(getFormValues(animal))
+    }
+  }, [isOpen, animal, reset])
 
   const processSubmit = async (data: AnimalFormData, uploaderRef: PhotoUploaderRef | null) => {
     const animalId = animal?.id || crypto.randomUUID()
@@ -159,30 +171,24 @@ export function AnimalEditModal({ isOpen, onClose, animal, onSuccess }: AnimalEd
         {/* Race */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Race <span className="text-red-500">*</span>
+            Race <span className="text-gray-400">(optionnel)</span>
           </label>
           <input
             {...register('breed')}
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
           />
-          {errors.breed && (
-            <p className="mt-1 text-sm text-red-500">{errors.breed.message}</p>
-          )}
         </div>
 
         {/* Âge */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            Âge <span className="text-red-500">*</span>
+            Âge <span className="text-gray-400">(optionnel)</span>
           </label>
           <input
             {...register('age')}
             placeholder="Ex: 2 ans, 6 mois"
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
           />
-          {errors.age && (
-            <p className="mt-1 text-sm text-red-500">{errors.age.message}</p>
-          )}
         </div>
 
         {/* Date de naissance */}
